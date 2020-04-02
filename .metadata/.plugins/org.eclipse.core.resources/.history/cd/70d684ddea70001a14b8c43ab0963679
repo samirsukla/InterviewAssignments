@@ -1,0 +1,32 @@
+package com.newPrograms.test;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class FindFirstNonRepetativeCharacter 
+{ 
+	
+    public static void main(String[] args) 
+    { 
+    	String str = "blrbloomreach";
+    	
+    	findFirstNonRepetativeChar(str);
+    } 
+    
+    public static void findFirstNonRepetativeChar(String str) {
+    	char[] chr = str.toCharArray();
+    	int n = chr.length;
+    	int count=0;
+    	for(int i=0;i<n;i++) {
+    		for(int j=i+1;j<n;j++) {
+    			if(chr[i]==chr[j]) {
+    				count++;
+    			}
+    		}
+    		if(count==0) {
+    			System.out.println("First Non-Repeatating Character is : "+chr[i]);
+    		}
+    		count=0;
+    	}
+    }
+} 

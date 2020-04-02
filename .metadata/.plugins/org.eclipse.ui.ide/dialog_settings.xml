@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\rishi\Downloads\Samir\Samir-Sigtuple\Samir-Sigtuple\SampleJavaPrograms"/>
+			<item value="C:\Users\rishi\Downloads\Samir\Samir-Sigtuple\Samir-Sigtuple\Vasuki_APITest"/>
+			<item value="C:\Users\rishi\Downloads\Samir\Samir-Sigtuple\Samir-Sigtuple\Samir_Mandara_Automation"/>
+			<item value="C:\Users\rishi\Downloads\Samir\Samir-Sigtuple\Samir-Sigtuple\Humain_Health_Automation"/>
+			<item value="C:\Users\rishi\Downloads\Samir\Samir-Sigtuple\Samir-Sigtuple\Aionic_APITest"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="546"/>
+		<item key="DIALOG_Y_ORIGIN" value="189"/>
+		<item key="DIALOG_WIDTH" value="828"/>
+		<item key="DIALOG_HEIGHT" value="482"/>
+		<item key="TOGGLE_SELECTED" value="false"/>
+	</section>
+</section>

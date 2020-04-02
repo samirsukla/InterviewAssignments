@@ -1,0 +1,30 @@
+package com.newPrograms.test;
+
+class First 
+{ 
+    public void run() {
+    	System.out.println("Run");
+    }
+} 
+   
+class Second extends First 
+{ 
+	public void run() {
+    	System.out.println("Run fast");
+    }
+	public void run1() {
+    	System.out.println("Ru1n fast");
+    }
+} 
+   
+public class MainClass extends Second
+{ 
+	public void run() {
+    	System.out.println("Run faster");
+    }
+    public static void main(String[] args) 
+    { 
+       Second s = (Second) new First();
+       s.run1();
+    } 
+} 
